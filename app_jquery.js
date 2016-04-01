@@ -7,7 +7,7 @@ function init() {
 	movingObstacle = $('#movingElement');
 	movingObstacle.css('position','relative');
 	// movingObstacle.css('right','0px');
-	movingObstacle.css('left','200px');
+	movingObstacle.css('left','1000px');
 }
 function moveLeft() {
 	// trying to move them to the left side of the screen
@@ -36,7 +36,7 @@ function moveLeft() {
 function stopMoving() {
 	// this is to stop moving object by clearTimeout
 	clearTimeout(animate);
-	// movingObstacle.style.right = "0px";
+	movingObstacle.style.right = "1000px";
 }
 window.onload = init();
 
