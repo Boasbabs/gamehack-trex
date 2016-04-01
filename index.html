@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>T-Rex Race</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="clouds">
+		<div class="cloud x1"></div>
+		<!-- Time for multiple clouds to dance around -->
+		<div class="cloud x2"></div>
+		<div class="cloud x3"></div>
+		<div class="cloud x4"></div>
+		<div class="cloud x5"></div>
+
+		<div id="field">
+			<div id="movingElement"></div>
+			<div id="trex"></div>
+
+			<input type="button" value="Start Move" onclick="moveLeft();" />
+			<input type="button" value="Stop Object" onclick="stopMoving();" />
+		</div>
+	</div>
+
+	
+	<script src="app_jquery.js"></script>
+</body>
+</html>
